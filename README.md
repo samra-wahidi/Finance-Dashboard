@@ -1,16 +1,40 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A responsive finance dashboard built using React and plain CSS. It allows users to track income, expenses, and financial insights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Dashboard summary (balance, income, expenses)
+* Interactive charts (Recharts)
+* Transactions table with search & filter
+* Role-based UI (Admin / Viewer)
+* Add & delete transactions
+* Insights section
+* Dark mode
+* Local storage persistence
+* Export data (JSON)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React (JavaScript)
+* Plain CSS
+* Recharts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Approach
+
+Focused on clean UI, reusable components, and user-friendly experience. Implemented state management using React hooks and ensured responsiveness across devices.
+
+## Future Improvements
+
+* Backend integration
+* Authentication
+* Advanced analytics
